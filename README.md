@@ -28,6 +28,9 @@ mysql -u root -p invoice_db < invoice_db.sql
 git clone <backend-repo-url>
 cd invoice-api
 
+# copy env
+cp .env.example .env
+
 # Install dependencies
 npm install
 
